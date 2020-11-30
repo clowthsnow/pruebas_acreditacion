@@ -1,0 +1,79 @@
+{
+    "1": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "proceso de prueba editado",
+        "descripcion":"descripcion opcional",
+        "anio": 2015,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"exitoso"
+    },
+    "2": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "proceso 1",
+        "descripcion":"descripcion opcional",
+        "anio": 2019,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"exitoso"
+    },
+    "3": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "",
+        "descripcion":"descripcion obligatoria",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"Mínimo 2 y máximo 30 caracteres"
+    },
+    "4": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "proceso de prueba",
+        "descripcion":"",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"exitoso"
+    },
+    "5": {
+        "responsable": "",
+        "nombre": "proceso de prueba",
+        "descripcion":"descripcion",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"Detalles del proceso"
+    },
+    "6": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "acreditación epis",
+        "descripcion":"",
+        "anio": 2016,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"No se editó el proceso"
+    },
+    "7": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "acreditación epit",
+        "descripcion":"",
+        "anio": 2016,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"exitoso"
+    }
+}

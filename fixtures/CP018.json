@@ -1,0 +1,18 @@
+{
+    "1": {
+        "archivo": "pr1.docx",
+        "resultado": "Debe seleccionar un archivo"
+    },
+    "2": {
+        "archivo": "pr3.txt",
+        "resultado": "Debe seleccionar un archivo"
+    },
+    "3": {
+        "archivo": "pr4.jpeg",
+        "resultado": "Debe seleccionar un archivo"
+    },
+    "4": {
+        "archivo": "pr2.pdf",
+        "resultado": "Archivo guardado"
+    }
+}

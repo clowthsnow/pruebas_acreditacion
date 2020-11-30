@@ -1,0 +1,90 @@
+{
+    "1": {
+        "email": "pruebaaut@unsa.edu.pe",
+        "nombre": "jashin",
+        "apellido":"salazar",
+        "proceso":"acreditación epis",
+        "rol":"administrador",
+        "resultado":"exitoso"
+    },
+    "2": {
+        "email": "jsalazar01@gmail.com",
+        "nombre": "jashin",
+        "apellido":"salazar",
+        "proceso":"acreditación epis",
+        "rol":"administrativo",
+        "resultado":"No es un correo válido"
+    },
+    "3": {
+        "email": "pruebaaut@unsa.edu.pe",
+        "nombre": "jashin",
+        "apellido":"Salazar",
+        "proceso":"acreditación epis",
+        "rol":"administrativo",
+        "resultado":"No se registro el usuario"
+    },
+    "4": {
+        "email": "",
+        "nombre": "jashin",
+        "apellido":"salazar",
+        "proceso":"acreditación epis",
+        "rol":"administrativo",
+        "resultado":"No es un correo válido"
+    },
+    "5": {
+        "email": "jsalazar01@unsa.edu.pe",
+        "nombre": "jashin",
+        "apellido":"",
+        "proceso":"acreditación epis",
+        "rol":"profesor",
+        "resultado":"Mínimo 2 y máximo 32 caracteres"
+    },
+    "6": {
+        "email": "jsalazar01@unsa.edu.pe",
+        "nombre": "",
+        "apellido":"salazar",
+        "proceso":"acreditación epis",
+        "rol":"profesor",
+        "resultado":"Mínimo 2 y máximo 32 caracteres"
+    },
+    "7": {
+        "email": "jsalazar01@unsa.edu.pe",
+        "nombre": "jashin",
+        "apellido":"salazar",
+        "proceso":"acreditación epis",
+        "rol":"",
+        "resultado":"Registrar usuario"
+    },
+    "8": {
+        "email": "jsalazar01@unsa.edu.pe",
+        "nombre": "",
+        "apellido":"",
+        "proceso":"acreditación epis",
+        "rol":"profesor",
+        "resultado":"Mínimo 2 y máximo 32 caracteres"
+    },
+    "9": {
+        "email": "",
+        "nombre": "jashin",
+        "apellido":"",
+        "proceso":"acreditación epis",
+        "rol":"profesor",
+        "resultado":"No es un correo válido"
+    },
+    "10": {
+        "email": "",
+        "nombre": "",
+        "apellido":"",
+        "proceso":"acreditación epis",
+        "rol":"",
+        "resultado":"No es un correo válido"
+    },
+    "11":{
+        "email": "jsalazar01@unsa.edu.pe",
+        "nombre": "jashin",
+        "apellido":"salazar",
+        "proceso":"",
+        "rol":"profesor",
+        "resultado":"Registrar usuario"
+    }
+}

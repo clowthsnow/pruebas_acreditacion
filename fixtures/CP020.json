@@ -1,0 +1,38 @@
+{
+    "1": {
+        "conocimiento": "con",
+        "resultado": "Examen de entrada"
+    },
+    "2": {
+        "conocimiento": "prueba",
+        "resultado": "prueba"
+    },
+    "3": {
+        "conocimiento": "prueba",
+        "resultado": "prueba"
+    },
+    "4": {
+        "conocimiento": "Conocimiento 1",
+        "resultado": "Conocimiento 1"
+    },
+    "5": {
+        "conocimiento": "Conocimiento 2",
+        "resultado": "Conocimiento 2"
+    },
+    "6": {
+        "conocimiento": "Conocimiento 3",
+        "resultado": "Conocimiento 3"
+    },
+    "7": {
+        "conocimiento": "Conocimiento 4",
+        "resultado": "Conocimiento 4"
+    },
+    "8":{
+        "conocimiento": "Conocimiento 5",
+        "resultado": "boton deshabilitado"
+    },
+    "9":{
+        "conocimiento": "Conocimiento 6",
+        "resultado": "boton deshabilitado"
+    }
+}

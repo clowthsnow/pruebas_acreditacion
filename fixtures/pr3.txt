@@ -1,0 +1,21 @@
+reporte de error, al crear usuario ya existente no muestra ningun mensaje. (reportado)
+no muestran las imagenes de los usuarios (Observacion)
+eliminar proceso en titulo de eliminar usuario (reportado no oficialmente)
+acceder con mi cuenta no ingresa por el rol no asignado, ingresa cuando pongo recuperar cuenta. y muestra todo lo de admin.
+
+
+
+Modificar proceso: no muestra mensaje cuando se pone un nombre de un proceso ya existente E20. 
+__________________________________________________________________________________________
+
+En crear fase al presionar agregar los campos no son correctos se cierra el modal no indica que campo esta mal.
+
+
+en modificar fase: reportados
+
+descripcion obligatoria cuando no lo es? (E21)
+no hay mensaje de aviso cuando se coloca una fase ya existente (E22)
+
+
+
+

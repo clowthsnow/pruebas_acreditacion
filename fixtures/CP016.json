@@ -1,0 +1,42 @@
+{
+    "1": {
+        "nombre": "fase modificada",
+        "descripcion":"descripcion opcional",
+        "resultado":"exitoso"
+    },
+    "2": {
+        "nombre": "fase modificada",
+        "descripcion":"",
+        "resultado":"exitoso"
+    },
+    "3": {
+        "nombre": "",
+        "descripcion":"descripcion opcional",
+        "resultado":" Mínimo 2 y máximo 20 caracteres"
+    },
+    "4": {
+        "nombre": "fase @1",
+        "descripcion":"descripcion opcional",
+        "resultado":"No es un caracter válido"
+    },
+    "5": {
+        "nombre": "fase modificada",
+        "descripcion":"descripcion opcional @23",
+        "resultado":"No es un caracter válido"
+    },
+    "6": {
+        "nombre": "",
+        "descripcion":"",
+        "resultado":" Mínimo 2 y máximo 20 caracteres"
+    },
+    "7": {
+        "nombre": "mejora continua",
+        "descripcion":"descripcion debe ser opcional",
+        "resultado":"No se editó la fase"
+    },
+    "8": {
+        "nombre": "auto evaluación",
+        "descripcion":"",
+        "resultado":"exitoso"
+    }
+}

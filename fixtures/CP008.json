@@ -1,0 +1,80 @@
+{
+    "1": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "proceso de prueba",
+        "descripcion":"descripcion opcional",
+        "anio": 2020,
+        "mes": 11,
+        "dia": 17,
+        "hora": 9,
+        "minutos": 20,
+        "resultado":"exitoso"
+    },
+    "2": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "proceso de prueba",
+        "descripcion":"descripcion opcional",
+        "anio": 2019,
+        "mes": 11,
+        "dia": 17,
+        "hora": 9,
+        "minutos": 20,
+        "resultado":"No se creó el proceso"
+    },
+    "3": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "",
+        "descripcion":"descripcion opcional",
+        "anio": 2019,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"Mínimo 2 y máximo 30 caracteres"
+    },
+    "4": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "prueba",
+        "descripcion":"",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"exitoso"
+    },
+    "5": {
+        "responsable": "",
+        "nombre": "prueba",
+        "descripcion":"descripcion",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"Nuevo Proceso"
+    },
+    "6": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "prueba",
+        "descripcion":"descripcion",
+        "anio": 2018,
+        "mes": 11,
+        "dia": 17,
+        "hora": 25,
+        "minutos": 1,
+        "resultado":"No se creó el proceso"
+    },
+    "7": {
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "nombre": "prueba",
+        "descripcion":"descripcion",
+        "anio": 1970,
+        "mes": 11,
+        "dia": 17,
+        "hora": 1,
+        "minutos": 1,
+        "resultado":"No se creó el proceso"
+    }
+    
+}

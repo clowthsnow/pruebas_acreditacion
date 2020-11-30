@@ -1,0 +1,32 @@
+{
+    "1": {
+        "email": "jsalazarta@unsa.edu.pe",
+        "opcion": 1,
+        "resultado":"exitoso"
+    },
+    "2": {
+        "email": "jsalazarta@unsa.edu.pe",
+        "opcion": 2,
+        "resultado":"No es un correo válido"
+    },
+    "3": {
+        "email": "admin@gmail.com",
+        "opcion": 1,
+        "resultado":"No es un correo válido"
+    },
+    "4": {
+        "email": "",
+        "opcion": 1,
+        "resultado":"No es un correo válido"
+    },
+    "5": {
+        "email": "",
+        "opcion": 2,
+        "resultado":"No es un correo válido"
+    },
+    "6":{
+        "email": "jsalserin@unsa.edu.pe",
+        "opcion": 1,
+        "resultado":"Datos incorrectos"
+    }
+}

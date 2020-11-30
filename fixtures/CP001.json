@@ -1,0 +1,42 @@
+{
+    "1": {
+        "email": "acreditacionunsa@unsa.edu.pe",
+        "contraseña": "Acreditac10n2020",
+        "resultado":"exitoso"
+    },
+    "2": {
+        "email": "admin@unsa.edu.pe",
+        "contraseña": "otracontraseña123",
+        "resultado":"Datos incorrectos"
+    },
+    "3": {
+        "email": "",
+        "contraseña": "Contraseña123",
+        "resultado":"Debe colocar su correo"
+    },
+    "4": {
+        "email": "admin@unsa.edu.pe",
+        "contraseña": "",
+        "resultado":"Debe colocar su contraseña"
+    },
+    "5": {
+        "email": "admin@gmail.com",
+        "contraseña": "Contraseña123",
+        "resultado":"Debe colocar un correo válido"
+    },
+    "6": {
+        "email": "",
+        "contraseña": "",
+        "resultado":"Debe colocar su correo"
+    },
+    "7": {
+        "email": "noEsCorreo",
+        "contraseña": "12345",
+        "resultado":"Debe colocar un correo válido"
+    },
+    "8": {
+        "email": "acreditacionunsa@unsa.edu.pe",
+        "contraseña": "Acreditac10n2020",
+        "resultado":"exitoso"
+    }
+}

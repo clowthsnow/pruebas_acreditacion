@@ -1,0 +1,22 @@
+{
+    "1": {
+        "nombre": "fase de prueba",
+        "descripcion":"descripcion opcional",
+        "resultado":"exitoso"
+    },
+    "2": {
+        "nombre": "fase de prueba",
+        "descripcion":"descripcion opcional",
+        "resultado":"No se creó la fase"
+    },
+    "3": {
+        "nombre": "",
+        "descripcion":"descripcion opcional",
+        "resultado":"Detalles del proceso"
+    },
+    "4": {
+        "nombre": "fase @ prueba",
+        "descripcion":"descripcion opcional",
+        "resultado":"Detalles del proceso"
+    }
+}
