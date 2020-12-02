@@ -1,12 +1,11 @@
 const testData = require("../fixtures/CP021.json");
 describe('CP021',function(){
-    before(function(){
+    beforeEach(function(){
         cy.visit('/login');
         cy.get('#__BVID__11').type('acreditacionunsa@unsa.edu.pe');
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        
     });   
     //Iteracion del dataset de pruebas
     

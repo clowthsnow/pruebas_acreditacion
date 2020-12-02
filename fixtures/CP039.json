@@ -1,0 +1,10 @@
+{
+    "1": {
+        "eliminar": "no",
+        "resultado": "Detalles del plan de estudio"
+    },
+    "2": {
+        "eliminar": "si",
+        "resultado": "Listado de Plan de Estudios"
+    }
+}
