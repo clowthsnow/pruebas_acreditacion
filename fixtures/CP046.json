@@ -1,0 +1,10 @@
+{
+    "1":{
+        "eliminar": "si",
+        "resultado": "Resultado del Estudiante Eliminado Exitosamente!"
+    },
+    "2":{
+        "eliminar": "no",
+        "resultado": "Detalles del Resultado del Estudiante"
+    }
+}
