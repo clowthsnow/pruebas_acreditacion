@@ -1,0 +1,10 @@
+{
+    "1":{
+        "eliminar": "si",
+        "resultado": "Competencia Eliminado Exitosamente!"
+    },
+    "2":{
+        "eliminar": "no",
+        "resultado": "Detalles de la Competencia"
+    }
+}
