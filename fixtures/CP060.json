@@ -1,0 +1,10 @@
+{
+    "1":{
+        "eliminar": "si",
+        "resultado": "Area de formacion Eliminado Exitosamente!"
+    },
+    "2":{
+        "eliminar": "no",
+        "resultado": "Detalles del Área de Formación"
+    }
+}

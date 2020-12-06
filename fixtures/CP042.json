@@ -1,0 +1,27 @@
+{
+    "1":{
+        "nombre": "resultado01",
+        "descripcion": "La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones ;:realistas en los aspectos de salud pública, seguridad y bienestar factores globales, culturales, sociales, económicos y ambientales",
+        "resultado": "exito"
+    },
+    "2":{
+        "nombre": "Resultado del Pl@n 213@",
+        "descripcion": "La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones realistas en los aspectos de salud pública, seguridad y bienestar; factores globales, culturales, sociales, económicos y ambientales La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones realistas en los aspectos de salud pública, seguridad y bienestar; factores globales, culturales, sociales, económicos y ambientales",
+        "resultado": "incorrecto"
+    },
+    "3":{
+        "nombre": "Resultadodelestudianteparaelplandeestudioparaelañodel2020estudioparaelañodel2020estudioparaelañodel2020",
+        "descripcion": "",
+        "resultado": "incorrecto"
+    },
+    "4":{
+        "nombre": "re.01",
+        "descripcion": "Descripción de un resultado del estudiante registrado ®",
+        "resultado": "incorrecto"
+    },
+    "5":{
+        "nombre": "resultado01",
+        "descripcion": "Descripción de un resultado del estudiante",
+        "resultado": "duplicado"
+    }
+}

@@ -1,7 +1,6 @@
-const testData = require("../fixtures/CP022.json");
-describe('CP022',function(){
+const testData = require("../fixtures/CP039.json");
+describe('CP039',function(){
     beforeEach(function(){
-        //cy.request('POST', '/login', { name: 'acreditacionunsa@unsa.edu.pe', password:'Acreditac10n2020' })
         cy.visit('/login');
         cy.get('#__BVID__11').type('acreditacionunsa@unsa.edu.pe');
         cy.get('#__BVID__13').type('Acreditac10n2020');
@@ -16,17 +15,15 @@ describe('CP022',function(){
         var resultado=testData[key]['resultado'];
 
         it("Eliminar Recurso - " + key, function () {
-            cy.visit('/process/1/studyPlan/list');
+            cy.visit('/process/1/studyPlan/7/detail');
             cy.wait(3000);
-            cy.get('[aria-rowindex="4"] > [aria-colindex="2"] > :nth-child(1) > .container > .btn').click();
-            cy.wait(1000);
-            cy.visit('/process/1/studyPlan/4/detail');
+            cy.get('.text-center > .btn').click();            
             if(eliminar != 'no'){
-                //cy.get('#infoModalundefined___BV_modal_footer_ > .btn-secondary').click();
-                //cy.get('#main').should('contain',resultado);
+                cy.get('.btn-success').click();
+                cy.get('.swal-title').should('contain',resultado);
             }else{
-                //cy.get('#infoModalundefined___BV_modal_footer_ > .btn-primary').click();
-                //cy.get('#main').should('contain',resultado);
+                cy.get('#delete-studyPlan-modal___BV_modal_footer_ > .btn-danger').click();
+                cy.get('#main').should('contain',resultado);
             }
         });
     });

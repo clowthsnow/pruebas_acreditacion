@@ -14,6 +14,6 @@ describe('CP015',function(){
         cy.get('#main').should('contain','Detalles de la fase')
         .and('contain','Nombre')
         .and('contain','Descripción')
-        .and('contain','Estado')
+        .and('contain','Estado');
     });
 });

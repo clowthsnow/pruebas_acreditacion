@@ -1,0 +1,38 @@
+{
+    "1":{
+        "nombre": "area 1",
+        "resultado": "exito"
+    },
+    "2":{
+        "nombre": "a",
+        "resultado": "nombre longitud"
+    },
+    "3":{
+        "nombre": "area con caracteres para que supere la capacidad",
+        "resultado": "nombre longitud"
+    },
+    "4":{
+        "nombre": "area-2",
+        "resultado": "caracter invalido"
+    },
+    "5":{
+        "nombre": "are@",
+        "resultado": "caracter invalido"
+    },
+    "6":{
+        "nombre": "",
+        "resultado": "Campo"
+    },
+    "7":{
+        "nombre":"area 1",
+        "resultado":"duplicado"
+    },
+    "8":{
+        "nombre": "a1",
+        "resultado": "exito"
+    },
+    "9":{
+        "nombre": "area de formacion numero 32 de c",
+        "resultado": "exito"
+    }
+}

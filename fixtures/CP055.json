@@ -1,0 +1,42 @@
+{
+    "1":{
+        "nombre": "cmod cmod",
+        "descripcion": "descripción opcional",
+        "resultado": "exito"
+    },
+    "2":{
+        "nombre": "c",
+        "descripcion": "Descripcion @12",
+        "resultado": "nombre longitud"
+    },
+    "3":{
+        "nombre": "",
+        "descripcion": "",
+        "resultado": "Completa este campo"
+    },
+    "4":{
+        "nombre": "competencia mod competencia",
+        "descripcion": "",
+        "resultado": "exito"
+    },
+    "5":{
+        "nombre": "competencia repetidamente tratando de vulnerar la cantidad de treinta y dos caracteres permitidos",
+        "descripcion": "",
+        "resultado": "nombre longitud"
+    },
+    "6":{
+        "nombre": "competencia.mod",
+        "descripcion": "Descripcion @12",
+        "resultado": "descripcion invalida"
+    },
+    "7":{
+        "nombre": "competencia.mod",
+        "descripcion": "descripcion nombre competencia repetidamente tratando de vulnerar la cantidad de treinta y dos caracteres permitidos nombre competencia repetidamente tratando de vulnerar la cantidad de treinta y dos caracteres permitidos nombre competencia repetidamente tratando de vulnerar la cantidad de treinta y dos caracteres permitidos",
+        "resultado": "descripcion longitud"
+    },
+    "8":{
+        "nombre": "competencia mod competencia",
+        "descripcion": "descripción opcional",
+        "resultado":"duplicado"    
+    }
+}

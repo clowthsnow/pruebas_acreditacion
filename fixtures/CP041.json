@@ -1,0 +1,37 @@
+{
+    "1": {
+        "nombre": "malla curricular 20202021",
+        "nombre_malla":"malla curricular 20202021",
+        "descripcion":"malla curricular 2020_2021",
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "resultado": "Duplicado"
+    },
+    "2": {
+        "nombre": "P",
+        "nombre_malla":"m@lla curricul@r",
+        "descripcion":"m@lla curricul@r",
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "resultado": "No es un caracter válido"
+    },
+    "3": {
+        "nombre": "",
+        "nombre_malla":"",
+        "descripcion":"",
+        "responsable": "",
+        "resultado": "Mínimo 2 y máximo 32 caracteres"
+    },
+    "4": {
+        "nombre": "malla curricular 20202022",
+        "nombre_malla":"malla curricular 20202022",
+        "descripcion":"",
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "resultado": "Exitoso"
+    },
+    "5": {
+        "nombre": "malla curricular 20202021",
+        "nombre_malla":"malla curricular 20202021",
+        "descripcion":"malla curricular 2020_2021",
+        "responsable": "jsalazarta@unsa.edu.pe",
+        "resultado": "Duplicado"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "1":{
+        "nombre": "resultado01",
+        "descripcion": "La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones ;:realistas en los aspectos de salud pública, seguridad y bienestar factores globales, culturales, sociales, económicos y ambientales",
+        "resultado": "exito"
+    },
+    "2":{
+        "nombre": "Resultado del Pl@n 213@",
+        "descripcion": "ejemplo de descripción",
+        "resultado": "nombre caracter"
+    },
+    "3":{
+        "nombre": "Resultadodelestudianteparaelplandeestudioparaelañodel2020estudioparaelañodel2020estudioparaelañodel2020",
+        "descripcion": "",
+        "resultado": "nombre longitud"
+    },
+    "4":{
+        "nombre": "az09aéíñ.:,;",
+        "descripcion": "aAzZ901aAEéÉ_ descripción. luego; # en 100%",
+        "resultado": "exito"
+    },
+    "5":{
+        "nombre": "resultado01",
+        "descripcion": "Descripción de un resultado del estudiante",
+        "resultado": "duplicado"
+    },
+    "6":{
+        "nombre": "resultado10",
+        "descripcion": "Descripción - 12:40 En ; @ @",
+        "resultado": "descripcion caracter"
+    },
+    "7":{
+        "nombre": "resul001",
+        "descripcion": "La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones realistas en los aspectos de salud pública, seguridad y bienestar; factores globales, culturales, sociales, económicos y ambientales La capacidad de aplicar diseño de ingeniería para producir soluciones a problemas y diseñar sistemas, componentes o procesos para satisfacer necesidades específicas dentro de consideraciones realistas en los aspectos de salud pública, seguridad y bienestar; factores globales, culturales, sociales, económicos y ambientales",
+        "resultado": "descripcion longitud"
+    },
+    "8":{
+        "nombre": "a",
+        "descripcion": "Descripción de un resultado del estudiante",
+        "resultado": "nombre longitud"
+    },
+    "9":{
+        "nombre": "",
+        "descripcion": "Descripción de un resultado del estudiante",
+        "resultado": "nombre vacio"
+    }
+}

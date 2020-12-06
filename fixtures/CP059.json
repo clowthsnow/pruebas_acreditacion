@@ -1,0 +1,26 @@
+{
+    "1":{
+        "nombre":"a3",
+        "resultado":"exito"
+    },
+    "2":{
+        "nombre":"area de formacion numero 32 de c",
+        "resultado":"exito"
+    },
+    "3":{
+        "nombre":"a",
+        "resultado":"nombre longitud"
+    },
+    "4":{
+        "nombre":"area con caracteres para que supere la capacidad",
+        "resultado":"nombre longitud"
+    },
+    "5":{
+        "nombre":"area-2",
+        "resultado":"caracter invalido"
+    },
+    "6":{
+        "nombre":"",
+        "resultado":"vacio"
+    }
+}
