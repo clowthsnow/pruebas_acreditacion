@@ -55,8 +55,4 @@ describe('CPO42', function(){
             }
         })
     })
-
-    /* beforeEach(function(){
-        
-    }) */
 })
