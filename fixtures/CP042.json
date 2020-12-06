@@ -43,5 +43,10 @@
         "nombre": "",
         "descripcion": "Descripción de un resultado del estudiante",
         "resultado": "nombre vacio"
+    },
+    "10":{
+        "nombre": "resultado 01",
+        "descripcion": "Descripcion aceptada",
+        "resultado": "nombre caracter"
     }
 }
