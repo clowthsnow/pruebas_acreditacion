@@ -1,0 +1,72 @@
+{
+    "1": {
+        "nombre": "esteesu74no123e90lr4s5l3adodele",
+        "descripcion":"los resultados del estudiantes r1 se insertaran nuevos  criterios para llevar mejor el control de los estudiantes.",
+        "nivel_insatisfactorio":"resultado insatisfactorio para el resultado del estudiante r3.1",
+        "nivel_en_proceso": "resultado en proceso para el resultado del estudiante r3.1",
+        "nivel_satisfactorio": "nivel satisfactorio ! en la descripción del criterio al 100%",
+        "nivel_sobresaliente": "resultado sobresaliente  para el resultado r3_1",
+        "nivel_sugerido": "todos",
+        "resultado": "Exitoso"
+    },
+    "2": {
+        "nombre": "3",
+        "descripcion":"resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia",
+        "nivel_insatisfactorio":"resultado insatisfactorio /~^",
+        "nivel_en_proceso": "re|p´",
+        "nivel_satisfactorio": "“resultado satisfactorio´",
+        "nivel_sobresaliente": "resultado sobresaliente‘",
+        "nivel_sugerido": "todos",
+        "resultado": "Invalido"
+    },
+    "3": {
+        "nombre": "3",
+        "descripcion":"resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia resultados del estudiante repetidamente esta es una cadena de prueba para tratar de vulnerar la cadena de ingreso de en la descripción con más de 156 caracteres repetidamente esta es la segunda copia",
+        "nivel_insatisfactorio":"resultado insatisfactorio /~^",
+        "nivel_en_proceso": "re|p´",
+        "nivel_satisfactorio": "“resultado satisfactorio´",
+        "nivel_sobresaliente": "resultado sobresaliente‘",
+        "nivel_sugerido": "todos",
+        "resultado": "Invalido"
+    },
+    "4":{
+        "nombre": "resutlad_o",
+        "descripcion":"",
+        "nivel_insatisfactorio":"",
+        "nivel_en_proceso": "",
+        "nivel_satisfactorio": "",
+        "nivel_sobresaliente": "",
+        "nivel_sugerido": "ninguno",
+        "resultado": "Invalido"
+    },
+    "5": {
+        "nombre": "esteesunnombredelresultadodelest",
+        "descripcion":"",
+        "nivel_insatisfactorio":"",
+        "nivel_en_proceso": "",
+        "nivel_satisfactorio": "",
+        "nivel_sobresaliente": "",
+        "nivel_sugerido": "ninguno",
+        "resultado": "Resultado"
+    },
+    "6": {
+        "nombre": "resultado 2 mod",
+        "descripcion":"",
+        "nivel_insatisfactorio":"",
+        "nivel_en_proceso": "",
+        "nivel_satisfactorio": "",
+        "nivel_sobresaliente": "re|p´",
+        "nivel_sugerido": "todos",
+        "resultado": ""
+    },
+    "7": {
+        "nombre": "esteesu74no123e90lr4s5l3adodele",
+        "descripcion":"los resultados del estudiantes r1 se insertaran nuevos  criterios para llevar mejor el control de los estudiantes.",
+        "nivel_insatisfactorio":"resultado insatisfactorio para el resultado del estudiante r3.1",
+        "nivel_en_proceso": "resultado en proceso para el resultado del estudiante r3.1",
+        "nivel_satisfactorio": "nivel satisfactorio ! en la descripción del criterio al 100%",
+        "nivel_sobresaliente": "resultado sobresaliente  para el resultado r3_1",
+        "nivel_sugerido": "todos",
+        "resultado": "Duplicado"
+    }
+}
