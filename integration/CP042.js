@@ -12,8 +12,12 @@ describe('CPO42', function(){
         var nombre = testData[key]['nombre'];
         var descripcion = testData[key]['descripcion'];
         var resultado = testData[key]['resultado'];
-        it('Crear Resultados del Estudiante - '+key, function(){
-            cy.visit('/process/1/studyPlan/1/studentResult/add');
+        it('Crear Resultado del Estudiante - '+key, function(){
+            cy.visit('/process/1/studyPlan/1/studentResult/list');
+            cy.wait(2000);
+            cy.get('[aria-rowindex="1"] > [aria-colindex="3"] > :nth-child(1) > .container > .btn').click();
+            cy.wait(2000);
+            cy.get(':nth-child(2) > .nav-link').click();
             cy.wait(2000);
             var itemList =0;
             if(nombre!=''){
@@ -26,15 +30,28 @@ describe('CPO42', function(){
             }else{
                 itemList++;
             }
-            cy.get('.btn-success').click();
+
             cy.wait(2000);
 
-            if(resultado == 'exito'){
-                cy.get('.swal-title').should('contain', 'Resultado de Estudiante Creado Exitosamente!');
-            }else if(resultado =='duplicado'){
-                cy.get('.swal-title').should('contain','El Resultado de Estudiante no se ha creado');
-            }else{ 
-                //cy.get('#__BVID__78').should('contain','Mínimo 2 y máximo 32 caracteres');
+            if(resultado == 'exito'){                
+                cy.get('.btn-success').click();
+                cy.wait(2000);
+                cy.get('.swal-modal').should('contain', 'Resultado de Estudiante Creado Exitosamente!');
+            }else if(resultado =='duplicado'){ 
+                cy.get('.btn-success').click();
+                cy.wait(2000);
+                cy.get('.swal-modal').should('contain','El Resultado de Estudiante no se ha creado');
+            }else if(resultado == 'nombre longitud'){ 
+                cy.get(':nth-child(2) > .container').should('contain', 'Mínimo 2 y máximo 32 caracteres');
+            }else if(resultado == 'nombre caracter'){ 
+                cy.get(':nth-child(2) > .container').should('contain', 'No es un caracter válido');
+            }else if(resultado == 'descripcion longitud'){ 
+                cy.get(':nth-child(2) > .container').should('contain', 'Mínimo 1 caracteres y Máximo 420 caracteres');
+            }else if(resultado == 'descripcion caracter'){ 
+                cy.get(':nth-child(2) > .container').should('contain', 'No es un caracter válido');
+            }else if(resultado == 'nombre vacio'){ 
+                cy.get('#input-1').clear();
+                cy.get(':nth-child(2) > .container').should('contain', 'Mínimo 2 y máximo 32 caracteres');
             }
         })
     })
