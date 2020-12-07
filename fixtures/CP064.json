@@ -1,0 +1,10 @@
+{
+    "1":{
+        "eliminar": "si",
+        "resultado": "Curso Eliminado Exitosamente!"
+    },
+    "2":{
+        "eliminar": "no",
+        "resultado": "Detalles del Curso"
+    }
+}

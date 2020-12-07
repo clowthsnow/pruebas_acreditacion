@@ -21,7 +21,7 @@ describe('CPO46', function(){
 
             if(eliminar=="si"){
                 cy.get('.btn-success').click();
-                cy.get('.swal-modal').should('contain', resultado)
+                cy.get('.swal-modal').should('contain', resultado);
             }else if(eliminar=="no"){
                 cy.get('#delete-studentResult-modal___BV_modal_footer_ > .btn-danger').click();
                 cy.get('.col-4 > h2').should('contain', resultado);

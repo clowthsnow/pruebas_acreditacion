@@ -1,0 +1,16 @@
+{
+    "1":{
+        "codigo": "Codigo de curso",
+        "nombre": "Nombre",
+        "departamento": "Departamento",
+        "semestre": "Semestre",
+        "creditos": "Créditos",
+        "prereq": "Pre-requisito",
+        "ht":"HT",
+        "hs":"HS",
+        "htp":"HTP",
+        "hp":"HP",
+        "hl":"HL",
+        "resultado": "correcto"
+    }
+}

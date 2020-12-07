@@ -1,0 +1,37 @@
+{
+    "1":{
+        "Nombre": "subárea de formación A",
+        "resultado": "correcto",
+        "respuesta": "Sub-Area Creada Exitosamente!"   
+    },
+    "2":{
+        "Nombre": "matemáticas y ciencias facticas",
+        "resultado": "correcto",
+        "respuesta": "Sub-Area Creada Exitosamente!"   
+    },
+    "3":{
+        "Nombre": "subárea de formación A",
+        "resultado": "duplicado",
+        "respuesta": ["No se creó el sub-area de formación", "Ya existe una sub-area de formación con ese nombre." ]  
+    },
+    "4":{
+        "Nombre": "subárea de formación no permitida a ingresar",
+        "resultado": "nombre long max",
+        "respuesta": "Mínimo 2 y máximo 32 caracteres"   
+    },
+    "5":{
+        "Nombre": "sub@rea de form4c10n",
+        "resultado": "nombre char",
+        "respuesta": "No es un caracter válido"   
+    },
+    "6":{
+        "Nombre": "",
+        "resultado": "vacio",
+        "respuesta": "Mínimo 2 y máximo 32 caracteres"   
+    },
+    "7":{
+        "Nombre": "s",
+        "resultado": "nombre long min",
+        "respuesta": "Mínimo 2 y máximo 32 caracteres"   
+    }
+}
