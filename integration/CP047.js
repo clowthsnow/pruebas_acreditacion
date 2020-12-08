@@ -1,7 +1,6 @@
 const testData=require("../fixtures/CP047.json");
 
-
-describe('CP035', function(){
+describe('CP047', function(){
     beforeEach(function(){
        
         cy.visit('/login');

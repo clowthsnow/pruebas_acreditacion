@@ -1,5 +1,5 @@
-const testData = require("../fixtures/CP021.json");
-describe('CP021',function(){
+const testData = require("../fixtures/CP041.json");
+describe('CP041',function(){
     beforeEach(function(){
         cy.visit('/login');
         cy.get('#__BVID__11').type('acreditacionunsa@unsa.edu.pe');
@@ -11,12 +11,16 @@ describe('CP021',function(){
     
     Object.keys(testData).forEach((key) => {
         
-        var conocimiento=testData[key]['conocimiento'];
+        var descripcion=testData[key]['descripcion'];
+        var contenido=testData[key]['contenido'];
         var resultado=testData[key]['resultado'];
 
-        it("Modificar conocimiento de examen de entrada - " + key, function () {
+        it("Modificar sumilla - " + key, function () {
             cy.visit('/process/1/studyPlan/3/sommeliers/list');
             cy.wait(2000);
+            cy.get('[aria-rowindex="1"] > [aria-colindex="2"] > :nth-child(1) > .container > .btn-outline-primary').click();
+            cy.get('#description');
+            cy.get('#contenid');
             //cy.get('[class=form-control]').clear();
             if(conocimiento != ''){
                 cy.get('[class=form-control]').eq(0).type(conocimiento);

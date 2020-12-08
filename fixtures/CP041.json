@@ -1,37 +1,27 @@
 {
     "1": {
-        "nombre": "malla curricular 20202021",
-        "nombre_malla":"malla curricular 20202021",
-        "descripcion":"malla curricular 2020_2021",
-        "responsable": "jsalazarta@unsa.edu.pe",
-        "resultado": "Duplicado"
+        "descripcion": "Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos",
+        "contenido":"Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos",
+        "resultado": "Exitoso"
     },
     "2": {
-        "nombre": "P",
-        "nombre_malla":"m@lla curricul@r",
-        "descripcion":"m@lla curricul@r",
-        "responsable": "jsalazarta@unsa.edu.pe",
+        "descripcion": "Primer@ descripcion de l▄",
+        "contenido":"Primer@ descripcion de l▄s contenidos",
         "resultado": "No es un caracter válido"
     },
     "3": {
-        "nombre": "",
-        "nombre_malla":"",
-        "descripcion":"",
-        "responsable": "",
+        "descripcion": "malla curricular 20202021",
+        "contenido":"malla curricular 20202021",
         "resultado": "Mínimo 2 y máximo 32 caracteres"
     },
     "4": {
-        "nombre": "malla curricular 20202022",
-        "nombre_malla":"malla curricular 20202022",
-        "descripcion":"",
-        "responsable": "jsalazarta@unsa.edu.pe",
+        "descripcion": "malla curricular 20202021",
+        "contenido":"malla curricular 20202021",
         "resultado": "Exitoso"
     },
     "5": {
-        "nombre": "malla curricular 20202021",
-        "nombre_malla":"malla curricular 20202021",
-        "descripcion":"malla curricular 2020_2021",
-        "responsable": "jsalazarta@unsa.edu.pe",
+        "descripcion": "malla curricular 20202021",
+        "contenido":"malla curricular 20202021",
         "resultado": "Duplicado"
     }
 }
