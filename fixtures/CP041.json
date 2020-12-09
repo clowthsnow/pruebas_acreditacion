@@ -10,18 +10,33 @@
         "resultado": "No es un caracter válido"
     },
     "3": {
-        "descripcion": "malla curricular 20202021",
-        "contenido":"malla curricular 20202021",
-        "resultado": "Mínimo 2 y máximo 32 caracteres"
+        "descripcion": "Primer@ descripcion de l▄",
+        "contenido":"Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos",
+        "resultado": "No es un caracter válido"
     },
     "4": {
-        "descripcion": "malla curricular 20202021",
-        "contenido":"malla curricular 20202021",
-        "resultado": "Exitoso"
+        "descripcion": "Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos",
+        "contenido":"Descripc▄n y contenidos",
+        "resultado": "No es un caracter válido"
     },
     "5": {
-        "descripcion": "malla curricular 20202021",
-        "contenido":"malla curricular 20202021",
-        "resultado": "Duplicado"
+        "descripcion": "",
+        "contenido":"",
+        "resultado": "Exitoso"
+    },
+    "6": {
+        "descripcion": "descripcion con simbolos validos . -_ ó , x ñ ô { } [] !?¿ ._,#%&/ 01293+*",
+        "contenido":"contenido con simbolos validos . -_ ó , x ñ ô { } [] !?¿ ._,#%&/ 01293+*",
+        "resultado": "Exitoso"
+    },
+    "7": {
+        "descripcion": "descripcion con simbolos validos :;¡~^\\",
+        "contenido":"contenido con simbolos validos :;¡~^\\",
+        "resultado": "Exitoso"
+    },
+    "8": {
+        "descripcion": "Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos. Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos (demostrando teoremas) en lugar de sólo usarlos. Este curso aportará en formalidad  y conceptos matemáticos básicos de ingeniería, por lo que debe ser desarrollado de modo que se entiendan los conceptos",
+        "contenido":"Concepto de límite de una función real en un punto, teoremas fundamentales de los límites, asíntotas, infinitésimos e infinitos, límites laterales, límite de una sucesión de números reales. Propiedades de las sucesiones convergentes, sucesiones monótonas, el número e. Límites indeterminados  de  funciones  y  sucesiones,  continuidad  de  funciones  de  una  variable, teoremas fundamentales sobre las funciones continuas, discontinuidades. Derivada de una función en un punto, función derivada, cálculo de derivadas, derivadas sucesivas, diferencial de  una  función  en  un  punto.  Crecimiento.  Extremos.  Concavidad  y  convexidad,  puntos  de inflexión,representación  gráfica  de  funciones  explícitas.  teoremas  de  Rolle,  Lagrange  y Cauchy,   interpretaciones   geométricas,   regla   de   l'Hôpital,   fórmula   de   Taylor,   formas infinitesimal, de Cauchy y Lagrange del término complementario, aplicaciones de la fórmula de  Taylor.  Desarrollo  en  serie  de  potencias  de  una  función,  desarrollos  de  las  funciones elementales.  Métodos  elementales  de  integración,  integrales  de  funciones  racionales, integración  de  funciones  reducibles  a  racionales,  propiedades  de  la  integrales,  funciones integrables,  teoremas  del  valor  medio.  Teorema  fundamental  del  cálculo,  cálculo  de integrales, area de un recinto plano, longitud de un arco de curva, cálculo de volúmenes, área de una superficie de revolución. Concepto de límite de una función real en un punto, teoremas fundamentales de los límites, asíntotas, infinitésimos e infinitos, límites laterales, límite de una sucesión de números reales. Propiedades de las sucesiones convergentes, sucesiones monótonas, el número e. Límites indeterminados  de  funciones  y  sucesiones,  continuidad  de  funciones  de  una  variable, teoremas fundamentales sobre las funciones continuas, discontinuidades. Derivada de una función en un punto, función derivada, cálculo de derivadas, derivadas sucesivas, diferencial de  una  función  en  un  punto.  Crecimiento.  Extremos.  Concavidad  y  convexidad,  puntos  de inflexión,representación  gráfica  de  funciones  explícitas.  teoremas  de  Rolle,  Lagrange  y Cauchy,   interpretaciones   geométricas,   regla   de   l'Hôpital,   fórmula   de   Taylor,   formas infinitesimal, de Cauchy y Lagrange del término complementario, aplicaciones de la fórmula de  Taylor.  Desarrollo  en  serie  de  potencias  de  una  función,  desarrollos  de  las  funciones elementales.  Métodos  elementales  de  integración,  integrales  de  funciones  racionales, integración  de  funciones  reducibles  a  racionales,  propiedades  de  la  integrales,  funciones integrables,  teoremas  del  valor  medio.  Teorema  fundamental  del  cálculo,  cálculo  de integrales, area de un recinto plano, longitud de un arco de curva, cálculo de volúmenes, área de una superficie de revolución. Concepto de límite de una función real en un punto, teoremas fundamentales de los límites, asíntotas, infinitésimos e infinitos, límites laterales, límite de una sucesión de números reales. Propiedades de las sucesiones convergentes, sucesiones monótonas, el número e. Límites indeterminados  de  funciones  y  sucesiones,  continuidad  de  funciones  de  una  variable, teoremas fundamentales sobre las funciones continuas, discontinuidades. Derivada de una función en un punto, función derivada, cálculo de derivadas, derivadas sucesivas, diferencial de  una  función  en  un  punto.  Crecimiento.  Extremos.  Concavidad  y  convexidad,  puntos  de inflexión,representación  gráfica  de  funciones  explícitas. teoremas fundamentales sobre las funciones continuas, discontinuidades. Derivada de una función en un punto, función derivada, cálculo de derivadas, derivadas sucesivas, diferencial de  una  función  en  un  punto.  Crecimiento.  Extremos.  Concavidad  y  convexidad,  puntos  de inflexión,representación  gráfica  de  funciones  explícitas.  Crecimiento.  Extremos.  Concavidad  y  convexidad,  puntos  de inflexión,representación  gráfica  de  funciones  explícitas.",
+        "resultado": "Máximo 4000 caracteres"
     }
 }

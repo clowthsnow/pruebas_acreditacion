@@ -7,9 +7,6 @@ describe('CP008',function(){
         cy.get('.btn').click();
         cy.wait(3000);
         //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
-        cy.get(':nth-child(2) > .nav-link').click();
-        cy.wait(1000);   
     });   
     //Iteracion del dataset de pruebas
     
@@ -24,7 +21,8 @@ describe('CP008',function(){
         var resultado=testData[key]['resultado'];
 
         it("Crear proceso - " + key, function () {
-
+            cy.visit('/process/add');
+            cy.wait(1000);
             if(nombre != ''){
                 cy.get('#input-1').type(nombre);
                 //cy.get('#__BVID__91').type(nombre);

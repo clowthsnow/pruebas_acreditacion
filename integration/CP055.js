@@ -17,7 +17,7 @@ describe('CPO55', function(){
             cy.wait(2000);
             cy.get('[aria-rowindex="4"] > [aria-colindex="3"] > :nth-child(1) > .container > .btn').click();
             cy.wait(2000);
-            cy.get('.text-right > .btn').click();
+            cy.get('.col-12 > :nth-child(1) > .btn').click();
             cy.wait(2000);
 
             var itemList =0;

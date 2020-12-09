@@ -6,7 +6,7 @@ describe('CP018',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        cy.visit('/ViewCourses/1/entranceExamination/exam');
+        cy.visit('/Portfolio/1/ViewCourses/1/entranceExamination/exam');
         cy.wait(1000);
     });   
     //Iteracion del dataset de pruebas

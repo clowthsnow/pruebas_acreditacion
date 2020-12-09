@@ -15,8 +15,8 @@ describe('CP035', function(){
         var responsable=testData[key]['responsable'];
         var resultado=testData[key]['resultado'];
 
-        it('Crear Portafolio - ' + key,function(){
-            cy.visit('/studyPlan/1/agregar');
+        it('Crear Recurso - ' + key,function(){
+            cy.visit('/process/1/studyPlan/add');
             cy.wait(2000);
             var item=0;
             if(nombre != ''){
@@ -37,14 +37,14 @@ describe('CP035', function(){
             if(responsable != ''){
                 cy.get('[class=custom-select]').select(responsable);
             }
-            cy.get('.btn-success').click();
+            cy.get('.ml-3').click();
             cy.wait(1000);
             if(resultado == 'Exitoso'){
                 cy.get('.swal-title').should('contain','Plan de Estudio Creado Exitosamente!');
             }else if(resultado == 'Duplicado'){
                 cy.get('.swal-title').should('contain','No se creó el plan de estudio');
             }else{
-                cy.get('.py-5 > :nth-child(2) > :nth-child(2)').should('contain',resultado);
+                cy.get('#main').should('contain',resultado);
             }
         });
     });

@@ -6,7 +6,7 @@ describe('CP009',function(){
         cy.get('.btn').click();
         cy.wait(3000);
         //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
+        cy.get('.list-group-horizontal-md > .list-group-item').click();
         cy.get('#main').should('contain','Listado de Procesos')
         .and('contain','Nombre')
         .and('contain','Fecha de inicio')

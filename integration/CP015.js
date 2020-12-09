@@ -6,8 +6,7 @@ describe('CP015',function(){
         cy.get('.btn').click();
         cy.wait(3000);
         //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
-        cy.get('[aria-rowindex="3"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
+        cy.visit('/process/1/detail');
         cy.wait(1000);
         cy.get(':nth-child(1) > [aria-colindex="4"] > :nth-child(1) > .container > .btn').click();
         cy.wait(1000);

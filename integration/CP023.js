@@ -14,7 +14,7 @@ describe('CP023',function(){
         var resultado=testData[key]['resultado'];
 
         it("Informe de examen de entrada - " + key, function () {
-            cy.visit('/ViewCourses/1/entranceExamination/report');
+            cy.visit('/Portfolio/1/ViewCourses/1/entranceExamination/report');
             cy.wait(1000);
             if(archivo != ''){
                 cy.get('[class=excel-upload-input]').attachFile(archivo);

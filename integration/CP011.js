@@ -6,15 +6,7 @@ describe('CP011',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        //cy.get('.icon_menu').click();
-        /*cy.get('[href="#/process/list"]').click();
-        cy.get('[aria-rowindex="3"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
-        cy.wait(1000);
-        cy.get('.text-right > .btn').click();
-        cy.wait(2000);*/
-        cy.visit('/process/3/detail');
-        cy.wait(1000);
-        cy.get('.text-right > .btn').click();
+        cy.visit('/process/3/edit');
         cy.wait(2000);
     });  
     //Iteracion del dataset de pruebas
@@ -63,7 +55,7 @@ describe('CP011',function(){
                     cy.get('[title="Next year"] > div').click();
                 }
             }
-            cy.wait(1000);
+            cy.wait(3000);
             var fs="[data-date="+fecha+"]";
             cy.get(fs).click()
             //escoger hora

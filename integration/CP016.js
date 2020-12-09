@@ -6,12 +6,6 @@ describe('CP016',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        //cy.get('.icon_menu').click();
-        /*cy.get('[href="#/process/list"]').click();
-        cy.get('[aria-rowindex="3"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
-        cy.wait(1000);
-        cy.get('.text-right > .btn').click();
-        cy.wait(2000);*/
         cy.visit('/phase/1/detail');
         cy.wait(1000);
         cy.get(':nth-child(3) > .btn').click();
@@ -48,9 +42,9 @@ describe('CP016',function(){
                 cy.get('.swal-button').click();
                 cy.wait(1000);
                 cy.get('#main').should('contain',nombre);
-            }else if(resultado === 'No se editó la fase'){
+            }else if(resultado === 'Ya existe una fase con ese nombre.'){
                 cy.wait(3000);
-                cy.get('.swal-title').should('contain','No se editó la fase');
+                cy.get('.swal-text').should('contain','Ya existe una fase con ese nombre.');
             }
             else{
                 cy.get('#main').should('contain',resultado);

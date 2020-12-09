@@ -1,6 +1,6 @@
 const testData = require("../fixtures/CP020.json");
 describe('CP020',function(){
-    before(function(){
+    beforeEach(function(){
         cy.visit('/login');
         cy.get('#__BVID__11').type('acreditacionunsa@unsa.edu.pe');
         cy.get('#__BVID__13').type('Acreditac10n2020');
@@ -15,7 +15,7 @@ describe('CP020',function(){
         var resultado=testData[key]['resultado'];
 
         it("Crear conocimiento de examen de entrada - " + key, function () {
-            cy.visit('/ViewCourses/1/entranceExamination/report');
+            cy.visit('/Portfolio/1/ViewCourses/1/entranceExamination/report');
             cy.wait(1000);
             if(key<7){
                 cy.get(':nth-child(2) > :nth-child(2) > .btn').click();

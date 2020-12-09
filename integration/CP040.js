@@ -7,7 +7,7 @@ describe('CP040',function(){
         cy.wait(3000);
         cy.visit('/process/1/studyPlan/3/detail');
         cy.wait(1000);
-        cy.get(':nth-child(9) > .col-sm-7 > .btn').click();
+        cy.get(':nth-child(8) > .col-sm-7 > .btn').click();
         cy.wait(1000);
         cy.get('[aria-rowindex="1"] > [aria-colindex="2"] > :nth-child(1) > .container > .mr-1').click();
         cy.wait(1000);

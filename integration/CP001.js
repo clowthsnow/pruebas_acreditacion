@@ -17,8 +17,8 @@ describe('CP001',function(){
             }
             cy.get('.btn').click();
             if(resultado === 'exitoso'){
-                cy.wait(6000);
-                cy.get('#main').should('contain','Panel de Control');
+                cy.wait(3000);
+                cy.get('#main').should('contain','Procesos');
             }else{
                 cy.get('#app > :nth-child(1)').should('contain',resultado);
             }

@@ -32,7 +32,7 @@
     "7": {
         "nombre": "mejora continua",
         "descripcion":"descripcion debe ser opcional",
-        "resultado":"No se editó la fase"
+        "resultado":"Ya existe una fase con ese nombre."
     },
     "8": {
         "nombre": "auto evaluación",

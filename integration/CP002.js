@@ -49,16 +49,8 @@ describe('CP002',function(){
                     cy.get('[class=custom-select]').eq(pos).select(rol);
                 }
             }
-            /*cy.wait(2000);
-            if(rol != ''){
-                cy.get('[class=custom-select]').eq(pos).select(rol);
-            }else{
-                
-            }*/
             
-            //cy.get('.custom-file-label').click();
-            
-            cy.get('.btn-primary').click();
+            cy.get('.ml-3').click();
             
             if(resultado === 'exitoso'){
                 cy.wait(6000);

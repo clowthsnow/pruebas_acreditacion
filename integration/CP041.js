@@ -6,6 +6,7 @@ describe('CP041',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
+        
     });   
     //Iteracion del dataset de pruebas
     
@@ -18,21 +19,24 @@ describe('CP041',function(){
         it("Modificar sumilla - " + key, function () {
             cy.visit('/process/1/studyPlan/3/sommeliers/list');
             cy.wait(2000);
-            cy.get('[aria-rowindex="1"] > [aria-colindex="2"] > :nth-child(1) > .container > .btn-outline-primary').click();
-            cy.get('#description');
-            cy.get('#contenid');
+            cy.get('[aria-rowindex="1"] > [aria-colindex="2"] > :nth-child(1) > .container > .btn-secondary > .bi-pencil-square').click();
             //cy.get('[class=form-control]').clear();
-            if(conocimiento != ''){
-                cy.get('[class=form-control]').eq(0).type(conocimiento);
+            cy.get('#description').clear();
+            cy.get('#contenid').clear();
+            if(descripcion != ''){
+                cy.get('#description').type(descripcion);
+            }
+            if(contenido != ''){
+                cy.get('#contenid').type(contenido);
             }
             cy.wait(3000);
-            cy.get('#editModalundefined___BV_modal_footer_ > .btn-primary').click();
-            if(resultado === 'Examen de entrada'){
+            cy.get('.btn-primary').click();
+            if(resultado === 'Exitoso'){
                 cy.wait(1000);
-                cy.get('#main').should('contain','Examen de entrada');
+                cy.get('.swal-title').should('contain','Sumilla Actualizada Correctamente');
             }
             else{
-                cy.get(':nth-child(2) > .col-12').should('contain',conocimiento);
+                cy.get('.swal-title').should('contain','Datos incorrectos');
             
             }
         });

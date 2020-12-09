@@ -15,7 +15,7 @@ describe('CP021',function(){
         var resultado=testData[key]['resultado'];
 
         it("Modificar conocimiento de examen de entrada - " + key, function () {
-            cy.visit('/ViewCourses/1/entranceExamination/report');
+            cy.visit('/Portfolio/1/ViewCourses/1/entranceExamination/report');
             cy.wait(1000);
             cy.get(':nth-child(1) > [aria-colindex="3"] > .container > .btn-outline-primary').click();
             cy.get(':nth-child(1) > [aria-colindex="3"] > .container > .btn-outline-primary').click();

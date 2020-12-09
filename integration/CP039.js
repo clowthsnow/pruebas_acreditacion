@@ -15,9 +15,9 @@ describe('CP039',function(){
         var resultado=testData[key]['resultado'];
 
         it("Eliminar Recurso - " + key, function () {
-            cy.visit('/process/1/studyPlan/7/detail');
+            cy.visit('/process/1/studyPlan/1/detail');
             cy.wait(3000);
-            cy.get('.text-center > .btn').click();            
+            cy.get('.col-12 > :nth-child(2) > .btn').click();            
             if(eliminar != 'no'){
                 cy.get('.btn-success').click();
                 cy.get('.swal-title').should('contain',resultado);

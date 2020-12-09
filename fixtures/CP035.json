@@ -1,10 +1,10 @@
 {
     "1": {
-        "nombre": "malla curricular 20202021",
+        "nombre": "plan de estudio 20202021",
         "nombre_malla":"malla curricular 20202021",
         "descripcion":"malla curricular 2020_2021",
         "responsable": "jsalazarta@unsa.edu.pe",
-        "resultado": "Duplicado"
+        "resultado": "Exitoso"
     },
     "2": {
         "nombre": "P",
@@ -21,14 +21,14 @@
         "resultado": "Mínimo 2 y máximo 32 caracteres"
     },
     "4": {
-        "nombre": "malla curricular 20202022",
+        "nombre": "plan de estudio 20202022",
         "nombre_malla":"malla curricular 20202022",
         "descripcion":"",
         "responsable": "jsalazarta@unsa.edu.pe",
         "resultado": "Exitoso"
     },
     "5": {
-        "nombre": "malla curricular 20202021",
+        "nombre": "plan de estudio 20202021",
         "nombre_malla":"malla curricular 20202021",
         "descripcion":"malla curricular 2020_2021",
         "responsable": "jsalazarta@unsa.edu.pe",

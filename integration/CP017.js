@@ -5,13 +5,10 @@ describe('CP017',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
-        cy.get('[aria-rowindex="3"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
-        cy.wait(1000);
-        cy.get(':nth-child(3) > [aria-colindex="4"] > :nth-child(1) > .container > .btn').click();
+        cy.visit('/phase/1/detail');
         cy.wait(1000);
         cy.get(':nth-child(4) > .btn').click();
+        cy.wait(1000);
         //no
         cy.get('#delete-phase-modal___BV_modal_footer_ > .btn-secondary').click();
         cy.get('#main').should('contain','Detalles de la fase');
@@ -22,13 +19,10 @@ describe('CP017',function(){
         cy.get('#__BVID__13').type('Acreditac10n2020');
         cy.get('.btn').click();
         cy.wait(3000);
-        //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
-        cy.get('[aria-rowindex="3"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
-        cy.wait(1000);
-        cy.get(':nth-child(3) > [aria-colindex="4"] > :nth-child(1) > .container > .btn').click();
+        cy.visit('/phase/1/detail');
         cy.wait(1000);
         cy.get(':nth-child(4) > .btn').click();
+        cy.wait(1000);
         //si
         cy.get('.btn-primary').click();
         cy.get('.swal-title').should('contain', 'Fase Eliminado Exitosamente!');
