@@ -66,7 +66,7 @@ describe('CP008',function(){
                 cy.get('.b-time-minutes > [aria-label="Increment"]').click();
             }
             //Registrar
-            cy.get('.btn-success').click();
+            cy.get('.ml-3').click();
             
             if(resultado === 'exitoso'){
                 cy.wait(2000);

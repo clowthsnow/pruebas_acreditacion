@@ -7,7 +7,7 @@ describe('CP012',function(){
         cy.wait(3000);
         cy.visit('/process/3/detail');
         cy.wait(1000);
-        cy.get(':nth-child(5) > .btn').click();
+        cy.get(':nth-child(4) > .btn').click();
         cy.wait(1000);
         //no
         cy.get('#delete-process-modal___BV_modal_footer_ > .btn-secondary').click();
@@ -22,7 +22,7 @@ describe('CP012',function(){
         cy.wait(3000);
         cy.visit('/process/3/detail');
         cy.wait(1000);
-        cy.get(':nth-child(5) > .btn').click();
+        cy.get('.text-right > .btn').click();
         cy.wait(1000);
 
         //si

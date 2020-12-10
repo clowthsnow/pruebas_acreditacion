@@ -6,7 +6,7 @@ describe('CP010',function(){
         cy.get('.btn').click();
         cy.wait(3000);
         //cy.get('.icon_menu').click();
-        cy.get('[href="#/process/list"]').click();
+        cy.get('.list-group-horizontal-md > .list-group-item').click();
         cy.get('[aria-rowindex="4"] > [aria-colindex="5"] > :nth-child(1) > .container > .btn').click();
         cy.wait(1000);
         cy.get('#main').should('contain','Detalles del proceso')

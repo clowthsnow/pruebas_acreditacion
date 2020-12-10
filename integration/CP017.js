@@ -7,7 +7,7 @@ describe('CP017',function(){
         cy.wait(3000);
         cy.visit('/phase/1/detail');
         cy.wait(1000);
-        cy.get(':nth-child(4) > .btn').click();
+        cy.get('.text-center > .btn').click();
         cy.wait(1000);
         //no
         cy.get('#delete-phase-modal___BV_modal_footer_ > .btn-secondary').click();
@@ -21,7 +21,7 @@ describe('CP017',function(){
         cy.wait(3000);
         cy.visit('/phase/1/detail');
         cy.wait(1000);
-        cy.get(':nth-child(4) > .btn').click();
+        cy.get('.text-center > .btn').click();
         cy.wait(1000);
         //si
         cy.get('.btn-primary').click();

@@ -71,7 +71,7 @@ describe('CP011',function(){
                 cy.get('.b-time-minutes > [aria-label="Increment"]').click();
             }
             //Registrar
-            cy.get('.btn-success').click();
+            cy.get('.col-12 > :nth-child(1) > .btn').click();
             
             if(resultado === 'exitoso'){
                 cy.wait(2000);

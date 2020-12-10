@@ -8,7 +8,7 @@ describe('CP016',function(){
         cy.wait(3000);
         cy.visit('/phase/1/detail');
         cy.wait(1000);
-        cy.get(':nth-child(3) > .btn').click();
+        cy.get('.text-right > .btn').click();
         cy.wait(2000);
     });   
     //Iteracion del dataset de pruebas
